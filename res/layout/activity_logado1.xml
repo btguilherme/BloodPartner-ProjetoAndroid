@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" 
+    android:background="#FFF">
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="241dp"
+        android:layout_height="348dp"
+        android:layout_gravity="center"
+        android:contentDescription="@string/Descricao"
+        android:padding="10dp"
+        android:paddingTop="30dp"
+        android:src="@drawable/blooddrop" />
+
+    <Button
+        android:id="@+id/btnStatus"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_gravity="center"
+        android:layout_weight="1"
+        android:text="@string/status"
+        style="?android:attr/buttonBarButtonStyle"
+        android:onClick="historico" />
+
+    <Button
+        android:id="@+id/btnBuscar"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_gravity="center"
+        android:layout_weight="1"
+        android:text="@string/buscar"
+        style="?android:attr/buttonBarButtonStyle"
+        android:onClick="buscarDoadores"  />
+    
+    <Button
+        android:id="@+id/btnVoltar"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_gravity="center"
+        android:layout_weight="1"
+        android:text="@string/voltar"
+        style="?android:attr/buttonBarButtonStyle"
+        android:onClick="voltar"  />
+
+</LinearLayout>

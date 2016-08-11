@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Blood Partner</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_entrar">Entrar</string>
+    <string name="title_activity_inscrever">Inscrever</string>
+    <string name="Entrar">ENTRAR</string>
+    <string name="Inscrever">INSCREVER-SE</string>
+    <string name="Descricao">Logotipo da aplicação</string>
+    <string name="Cadastrar">CADASTRAR</string>
+    <string name="Cancelar">CANCELAR</string>
+    <string name="Nome_Completo">Nome completo</string>
+    <string name="Sexo">Sexo:</string>
+    <string name="Masculino">Masculino</string>
+    <string name="Feminino">Feminino</string>
+    <string name="Nome_Usuario">Nome de usuário</string>
+    <string name="Senha">Senha</string>
+    <string name="RepitaSenha">Repita a senha</string>
+    <string name="Faca_Login">Faça o login no Blood Partner!</string>
+    <string name="Digite_User">Digite o nome de usuário</string>
+    <string name="Digite_Senha">Digite a senha</string>
+    <string name="title_activity_logado1">O que você deseja fazer?</string>
+    <string name="status">MEU HISTÓRICO</string>
+    <string name="buscar">BUSCAR DOADORES</string>
+    <string name="sair">SAIR</string>
+    <string name="title_activity_historico">Historico</string>
+    <string name="doados">Pessoas a quem você doou sangue!</string>
+    <string name="doaram">Pessoas que doaram sangue a você!!</string>
+    <string name="voltar">VOLTAR</string>
+    <string name="title_activity_buscar_doadores">Encontre doadores perto de você!</string>
+    <string name="proximos">BUSCAR DOADORES PRÓXIMOS</string>
+    <string name="manual">BUSCAR MANUALMENTE</string>
+    <string name="title_activity_busca_manual">Defina os parâmetros</string>
+    <string name="email">E-mail</string>
+    <string name="sangue">Tipo de sangue</string>
+    <string name="estado">Estado</string>
+    <string name="cidade">Cidade</string>
+
+</resources>

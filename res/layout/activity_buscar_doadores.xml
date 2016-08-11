@@ -1,0 +1,59 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <Button
+            android:id="@+id/btnDoadoresProximos"
+            style="?android:attr/buttonBarButtonStyle"
+            android:layout_width="fill_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:layout_margin="15dp"
+            android:onClick="buscarProximos"
+            android:text="@string/proximos" />
+
+        <ListView
+            android:id="@+id/listViewResultado"
+            android:layout_width="fill_parent"
+            android:layout_height="270dp" >
+
+        </ListView>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+        
+            <Button
+                android:id="@+id/btnBuscaManual"
+                style="?android:attr/buttonBarButtonStyle"
+                android:layout_width="fill_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:layout_margin="15dp"
+                android:onClick="buscaManual"
+                android:text="@string/manual" />
+            
+            <Button
+            android:id="@+id/btnVoltar"
+            style="?android:attr/buttonBarButtonStyle"
+            android:layout_width="fill_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:layout_margin="15dp"
+            android:onClick="voltar"
+            android:text="@string/voltar" />
+        
+        
+        
+    </LinearLayout>
+
+</LinearLayout>
